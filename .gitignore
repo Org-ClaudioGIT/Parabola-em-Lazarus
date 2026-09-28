@@ -1,0 +1,12 @@
+# Arquivos compilados e executáveis do Lazarus/Delphi
+lib/
+bin/
+backup/
+*.ppu
+*.o
+*.or
+*.compiled
+*.dbg
+*.exe
+*.bak
+*.lps

@@ -1,0 +1,47 @@
+object Form1: TForm1
+  Left = 248
+  Height = 398
+  Top = 145
+  Width = 988
+  Caption = 'Gráfico'
+  ClientHeight = 398
+  ClientWidth = 988
+  LCLVersion = '3.0.0.3'
+  object Chart1: TChart
+    Left = 0
+    Height = 320
+    Top = 24
+    Width = 928
+    AxisList = <    
+      item
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelFont.Orientation = 900
+        Title.LabelBrush.Style = bsClear
+      end    
+      item
+        Alignment = calBottom
+        Marks.LabelBrush.Style = bsClear
+        Minors = <>
+        Title.LabelBrush.Style = bsClear
+      end>
+    Legend.Visible = True
+    Title.Text.Strings = (
+      'Gráfico de uma Parábola'
+    )
+    Title.Visible = True
+    object LineSeries1: TLineSeries
+      Title = 'y = x²'
+    end
+  end
+  object Button1: TButton
+    Left = 40
+    Height = 25
+    Top = 352
+    Width = 75
+    Caption = 'Gráfico'
+    Color = clLime
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+end
